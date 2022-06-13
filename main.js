@@ -17,6 +17,6 @@ console.log(userFavColor);
 document.getElementById("user-fav-color").innerHTML = userFavColor;
 
 // password
-let PassWord = userName + userSurName + userFavColor + 22;
+let PassWord = userName + userSurName + userFavColor + "22";
 console.log(PassWord)
 document.getElementById("user-password").innerHTML = PassWord;
